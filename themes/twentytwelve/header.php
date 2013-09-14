@@ -28,6 +28,15 @@
 <!--[if lt IE 9]>
 <script src="<?php echo get_template_directory_uri(); ?>/js/html5.js" type="text/javascript"></script>
 <![endif]-->
+
+<!-- start twitcker.com -->
+<script type="text/javascript">(function(){var ticker=document.createElement('script');ticker.type='text/javascript';ticker.async=true;ticker.src='//twitcker.com/ticker/rrgrzcool.js?speed=6&count=22&open=true';(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(ticker);})();</script>
+<!-- end twitcker.com -->
+
+<!-- start google analytics -->
+<?php include_once("google-analytics.php") ?>
+<!-- end google analytics -->
+
 <?php wp_head(); ?>
 </head>
 
@@ -36,7 +45,8 @@
 	<header id="masthead" class="site-header" role="banner">
 		<hgroup>
 			<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-			<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
+			<!-- <h2 class="site-description"><?php bloginfo( 'description' ); ?></h2> -->
+                        <h2 class="site-description">CTO, rock-climber, and musician</h2>
 		</hgroup>
 
 		<nav id="site-navigation" class="main-navigation" role="navigation">
