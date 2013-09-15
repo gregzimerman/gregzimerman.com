@@ -30,7 +30,7 @@
 <![endif]-->
 
 <!-- start twitcker.com -->
-<script type="text/javascript">(function(){var ticker=document.createElement('script');ticker.type='text/javascript';ticker.async=true;ticker.src='//twitcker.com/ticker/rrgrzcool.js?speed=6&count=22&open=true';(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(ticker);})();</script>
+<script type="text/javascript">(function(){var ticker=document.createElement('script');ticker.type='text/javascript';ticker.async=true;ticker.src='//twitcker.com/ticker/rrgrzcool.js?background=000000&tweet=ffffff&speed=6&count=25&open=true';(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(ticker);})();</script>
 <!-- end twitcker.com -->
 
 <!-- start google analytics -->
@@ -46,7 +46,7 @@
 		<hgroup>
 			<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 			<!-- <h2 class="site-description"><?php bloginfo( 'description' ); ?></h2> -->
-                        <h2 class="site-description">CTO, rock-climber, and musician</h2>
+                        <!-- <h2 class="site-description">CTO, rock-climber, and musician</h2> -->
 		</hgroup>
 
 		<nav id="site-navigation" class="main-navigation" role="navigation">
